@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Course</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>    
+    <!-- insert form here -->
+    <form action="">
+        <fieldset>
+            <legend>Your Details</legend>
+            <li>    
+                <label for="firstname">First Name</label>
+                <input type="text" id = "firstname" name="first name" autofocus  >
+             </li>
+             
+             <li>
+                    <label for="surname">Surname</label>
+                    <input type="text" name="details" id="surname">
+             </li>
+            
+             <li>
+                    <label for="position">Position/Role</label>
+                    <input type="text" name="details" id="position">
+             </li>
+
+             <li>
+                <label for="email">email:</label>
+                <input type="email" name="email" id="email" placeholder="you@domain.com">
+             </li>
+             <li>
+                <label for="Phone">Phone</label>
+                <input type="tel" name="phonenumber" id="Phone" placeholder="+447000000000">
+            </li>
+        </fieldset>
+        <fieldset>
+            <legend>Course Details</legend>
+             <li>    
+                <label for="course">Course Type</label>
+                <select name="course" id="course">
+                    <option value="programming java">programming java</option>
+                    <option value="Developing Web Applications">developing web applications</option>
+                    <option value="responsive websites">Developing Responsive Websites</option>
+                    <option value="jquery">Leveraging Power of Jquery</option>
+                </select>
+            </li>
+            <li>
+                <label for="delegates">Number of Delegates</label>
+                <input type="number" id="delegates" name="delegates">
+            </li>
+            <li>
+                <label for="date">Date</label>
+                <input type="date" id ='date' name="date">
+            </li>
+
+        </fieldset>   
+        <fieldset>
+            <input type = "button" value="Submit">
+        </fieldset>
+       
+
+
+
+
+
+
+        </label>
+    </form> 
+</body>
+</html>
